@@ -1,0 +1,251 @@
+::-webkit-scrollbar-track{
+    border-radius: 5px;
+    background-color: white;
+}
+::-webkit-scrollbar{
+    width: 12px;
+    background-color: white;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 1px;
+    background-color: #FCDA69;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Navigation*/
+nav{
+    display: flex;
+}
+nav .nav-kotak{
+    background-image: url(Image/Prof.jpg);
+    background-size: contain;
+    background-position: 60px 61px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 35px;
+    justify-content: space-around;
+    animation: nav-kotak 7s linear infinite;
+}
+@keyframes nav-kotak{
+    0%    {transform: rotateZ(0deg);}
+    100%  {transform: rotateZ(360deg);}
+}
+nav .title{
+    font-size: 25px;
+    line-height: 0.7;
+    padding-left:40px;
+    padding-top: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+nav ul{
+    padding-top: 50px;
+    padding-left: 230px;
+    display: flex;
+    font-size: 28px;
+    font-weight: bolder;
+    list-style: none;
+}
+nav ul li{
+    text-decoration: none;
+    padding: 0 2px;
+    cursor: pointer;
+}
+nav ul li :hover{
+    color: #FCDA69;
+}
+nav ul li a{
+    text-decoration: none;
+    padding-right: 90px;
+    color: black;
+}
+/*Header*/
+header{
+    display: flex;
+    padding-left: 60px;
+    padding-bottom: 10px;
+}
+header .left{
+    width: 33%;
+    padding-top: 50px;
+}
+header .left-teks1{
+    position: relative;
+    font-size: 20px;
+    color: #FCDA69;
+    left: 250px;
+    bottom: -140px;
+    z-index: 1;
+    transform: rotateZ(30deg);
+    font-weight: bolder;
+}
+header .left-teks2{
+    font-size: 70px;
+    font-weight: bolder;
+    color: black;
+}
+header .left-1{
+    display: flex;
+}
+header .left-1-1{
+    position: relative;
+    top: 5px;
+    right: 25px;
+}
+header .left-2{
+    display: flex;
+    padding-top: 50px;
+}
+header .left-2-1{
+    background-color: unset;
+    border-style: unset;
+    border-radius: 13px;
+    background-color: black;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 17px;
+    padding-bottom: 8px;
+    margin-right: 10px;
+}
+header .left-2-1 a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+header .left-2-1 a p{
+    padding-right: 20px;
+    font-weight: bold;
+}
+header .left-2-1 a img{
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+}
+header .left-2-2{
+    background-color: #FCDA69;
+    border-style: unset;
+    border-radius: 13px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 17px;
+    padding-bottom: 8px;
+    margin-right: 10px;
+}
+header .left-2-2 a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+header .left-2-2 a p{
+    padding-right: 20px;
+    font-weight: bold;
+}
+header .left-2-2 a img{
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+}
+header .middle{
+    height: 480px;
+    position: relative;
+    top: 60px;
+    margin: 0 40px;
+}
+header .right{
+    margin-top: 150px;
+}
+header .right-teks1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 60px;
+    margin-left: 30px;
+    color: black;
+}
+header .right-teks2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 33px;
+    margin-left: 30px;
+    color: black;
+}
+header .right-1{
+    display: flex;
+    position: relative;
+    top: 197px;
+    left: -110px;
+}
+header .right-1-1{
+    font-size: 14px;
+    font-weight: bolder;
+    padding-right: 10px;
+}
+header .right-1 img{
+    height: 60px;
+    bottom: 15px;
+    position: relative;
+    padding: 0 15px;
+}
+header .right-2{
+    margin-left: 250px;
+}
+header .right-2 a{
+    text-decoration: none;
+    color: black;
+}
+header .right-2-2{
+    position: relative;
+    transform: rotateZ(-90deg);
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    right: 20px;
+    top: 64px;
+}
+header .right-2-3{
+    position: relative;
+    height: 160px;
+    top: -44px;
+    left: 100px;   
+}
+
+/*Service I offer*/
+
+#Service{
+    background-color: #FCDA69;
+    display: flex;
+}
+.Service-left{
+    width: 50%;
+}
+.Service-left1{
+    position: relative;
+    transform: rotateZ(35deg);
+    bottom: -230px;
+    right: -425px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.Service-left2{
+    font-size: 110px;
+    padding-left: 70px;
+    line-height: 0,1;
+    font-weight: bolder;
+    color: white;
+}
+.Service-left3{
+    display: flex;
+    padding-left: 70px;
+    width: 600px;
+    font-size: 18px;
+}
+.Service-left3 sup{
+    padding-right: 20px;
+    padding-top: 10px;
+}
