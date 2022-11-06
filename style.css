@@ -19,16 +19,17 @@ body{
 /*Navigation*/
 nav{
     display: flex;
+    color: black;
 }
 nav .nav-kotak{
     background-image: url(Image/Logo.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    height: 68px;
-    width: 68px;
+    height: 65px;
+    width: 65px;
     margin-left: 30px;
-    margin-top: 45px;
+    margin-top: 25px;
     justify-content: space-around;
     animation: nav-kotak 7s linear infinite;
 }
@@ -40,18 +41,18 @@ nav .nav-kotak{
     100%  {transform: rotateZ(0deg);}
 }
 nav .title{
-    font-size: 25px;
+    font-size: 20px;
     line-height: 0.7;
     padding-left:40px;
-    padding-top: 45px;
+    padding-top: 25px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
 }
 nav ul{
-    padding-top: 50px;
+    padding-top: 30px;
     padding-left: 230px;
     display: flex;
-    font-size: 28px;
+    font-size: 20px;
     font-weight: bolder;
     list-style: none;
 }
@@ -60,26 +61,28 @@ nav ul li{
     padding: 0 2px;
     cursor: pointer;
     opacity: 1;
-    transition-duration: 2s;
+    color: black;
+    transition-duration: 0.5s;
 }
 nav ul li :hover{
     color: #FCDA69;
     opacity: 0.5;
+    transition-duration: 0.5s;
 }
 nav ul li a{
     text-decoration: none;
-    padding-right: 90px;
+    padding-right:140px;
     color: black;
 }
 /*Header*/
 header{
     display: flex;
     padding-left: 60px;
-    padding-bottom: 10px;
+    padding-bottom: 74px;
+    color: black;
 }
 header .left{
     width: 33%;
-    padding-top: 50px;
 }
 header .left-teks1{
     position: relative;
@@ -154,6 +157,7 @@ header .left-2-2 a{
     display: flex;
     text-decoration: none;
     color: black;
+    padding-top: 5px;
 }
 header .left-2-2 a p{
     padding-right: 20px;
@@ -167,11 +171,11 @@ header .left-2-2 a img{
 header .middle{
     height: 480px;
     position: relative;
-    top: 60px;
+    top: 20px;
     margin: 0 40px;
 }
 header .right{
-    margin-top: 150px;
+    margin-top: 110px;
 }
 header .right-teks1{
     font-family: Arial, Helvetica, sans-serif;
@@ -228,7 +232,7 @@ header .right-2-3{
     animation: panah 2s linear infinite;   
 }
 @keyframes panah {
-    50% {top: -40px;}
+    50% {top: -38px;}
     100%{top: -44px;}
 }
 
@@ -237,6 +241,9 @@ header .right-2-3{
 #Service{
     background-color: #FCDA69;
     display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: black;
 }
 .Service-left{
     width: 50%;
@@ -265,4 +272,548 @@ header .right-2-3{
 .Service-left3 sup{
     padding-right: 20px;
     padding-top: 10px;
+}
+.Service-left .Service-left-button1{
+    display: flex;
+    margin-left: 70px;
+    border-style: unset;
+    border-radius: 13px;
+    background-color: black;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 17px;
+    padding-bottom: 8px;
+    margin-right: 10px;
+}
+.Service-left-button1 a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+.Service-left-button1 a p{
+    padding-right: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+    color: white;
+}
+.Service-left-button1 a img{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+}
+.Service-right{
+    margin-left: 50px;
+    color: black;
+}
+.Service-right1-1{
+    display: flex;
+    margin-top: 10px;
+    border-top:1px solid black ;
+    padding-top: 10px;
+    width: 600px;
+}
+.Service-right1-1-1{
+    font-weight: bolder;
+
+}
+.Service-right1-1-2{
+    width: 150px;
+    margin-left: 20px;
+    margin-top: -20px;
+}
+.Service-right1-1-2-1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.Service-right1-1-2-2 a{
+    text-decoration: none;
+    color: black;
+}
+.Service-right1-1 button{
+    border: unset;
+    background-image: url(Image/Panah.png);
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: relative;
+    left: 350px;
+    top: 130px;
+}
+
+/*Skill and Experience*/
+
+.Skill{
+    display: flex;
+    width: 50%;
+    padding-bottom: 50px;
+}
+.Skill-left1{
+    position: relative;
+    transform: rotateZ(-30deg);
+    top: -60px;
+    left: 15px;
+    color: #FCDA69;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.Skill-left2{
+    font-size: 85px;
+    font-weight: bolder;
+    color: black;
+    width: 480px;
+    margin-left: 150px;
+}
+.Skill-left3{
+    display: flex;
+    margin-left: 98px;
+    padding-top: 50px;
+    font-size: 20px;
+    width: 520px;
+}
+.Skill-left3 p{
+    margin-left: 20px;
+    margin-top: -15px;
+}
+.Skill-left4{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 110px;
+    color: black;
+}
+.Skill-left5{
+    font-size: 20px;
+    margin-left: 110px;
+}
+.Skill-left6{
+    display: flex;
+    margin-left: 95px;
+}
+.Skill-left6-list{
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.Skill-left6-list .img1{
+    height: 140px;
+    margin-top: -19px;
+}
+.Skill-left6-list .img2{
+    height: 130px;
+    margin-top: -12px;
+}
+.Skill-left6-list .img3{
+    height: 125px;
+    margin-top: -15px;
+}
+.Skill-left6-list p{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.Skill-left6-list .p1{
+    margin-left: 32px;
+}
+.Skill-left6-list .p2{
+    margin-left: 30px;
+    margin-top: 3px;
+}
+.Skill-left6-list .p3{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.Skill-right{
+    margin-left: 150px;
+}
+.Skill-right1{
+    font-size: 40px;
+    font-weight: bolder;
+    color: black;
+    margin-top: 60px;
+}
+.Skill-right2{
+    border-top: 1px black solid;
+    padding-top: 10px;
+    display: flex;
+    font-weight: bolder;
+}
+.Skill-right2 .pp{
+    width: 200px;
+}
+.Skill-right2 div{
+    width: 300px;
+}
+.Skill-right3-1{
+    margin-top: 70px;
+}
+.Skill-right3-1 button{
+    border-radius: 50%;
+    background-color: black;
+    padding-bottom: 10px;
+    padding: 25px 30px 35px 30px;
+    outline: 2px #FCDA69 solid;
+    outline-offset: -20px;
+    transition: ease 2s;
+}
+.Skill-right3-1 button a{
+    display: flex;
+    color: white;
+    text-decoration: none;
+}
+.Skill-right3-1 button p{
+    padding-top: 20px;
+
+}
+.Skill-right3-1 button .lo{
+    font-size: 20px;
+    padding-top: 51px;
+    padding-right: 10px;
+}
+.Skill-right3-1 button a .lol{
+    transform: rotateZ(45deg);
+    padding-left: 20px;
+    font-size: 60px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-weight: 0;
+}
+.Skill-right3-1 button:hover{
+    transition: ease 2s;
+    outline-offset: -10px;
+}
+.Skill-right3-1 button::after:hover{
+    outline-offset: -20px;
+}
+
+/*Latest Project*/
+
+.Project{
+    background-color: #FCDA69;
+    display: flex;
+    color: black;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.Project-left1{
+    font-size: 20px;
+    transform: rotateZ(-30deg); 
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    position: relative;
+    top: -10px;
+    left: 5px;   
+}
+.Project-left2{
+    font-size: 70px;
+    font-weight: bolder;
+    margin-left: 80px;
+    margin-top: 50px;
+    width: 360px;
+    margin-bottom: 30px;
+}
+.Project-left3{
+    display: flex;
+    border-top: 1px solid black;
+    margin-left: 80px;
+    padding-top: 20px;
+}
+.Project-left3 p{
+    font-size: 30px;
+    font-weight: bolder;
+    width: 290px;
+}
+.Project-left3 button{
+    margin-top: 20px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border-style: unset;
+    transform: rotateZ(45deg);
+}
+.Project-left3 button a{
+    text-decoration: none;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}
+.Project-left4{
+    height:220px;
+    width: 280px;
+    background-image: url(Image/Mask\ Group\ 6.png);
+    margin-left: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.Project-middle{
+    margin-top: 170px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.Project-middle1{
+    display: flex;
+    border-top: 1px solid black;
+    margin-left: 50px;
+    padding-top: 20px;
+}
+.Project-middle1 p{
+    font-size: 30px;
+    font-weight: bolder;
+    width: 290px;
+}
+.Project-middle1 button{
+    margin-top: 20px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border-style: unset;
+    transform: rotateZ(45deg);
+}
+.Project-middle1 button a{
+    text-decoration: none;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}
+.Project-middle2{
+    height:220px;
+    width: 280px;
+    background-image: url(Image/Mask\ Group\ 5.png);
+    margin-left: 70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.Project-right{
+    margin-top: 25px;
+}
+.Project-right1{
+    display: flex;
+    border-top: 1px solid black;
+    margin-left: 50px;
+    padding-top: 20px;
+}
+.Project-right1 p{
+    font-size: 30px;
+    font-weight: bolder;
+    width: 290px;
+}
+.Project-right1 button{
+    margin-top: 20px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border-style: unset;
+    transform: rotateZ(45deg);
+}
+.Project-right1 button a{
+    text-decoration: none;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}
+.Project-right2{
+    height:220px;
+    width: 280px;
+    background-image: url(Image/Mask\ Group\ 4.png);
+    margin-left: 70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.Project-right .Project-right3{
+    border-radius: 13px;
+    background-color: black;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 17px;
+    padding-bottom: 8px;
+    margin-left: 170px;
+    margin-top: 220px;
+    border: 1px solid black;
+    z-index: 1;
+}
+.Project-right3 a{
+    display: flex;
+    text-decoration: none;
+}
+.Project-right3 a p{
+    padding-right: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+    color: white;
+}
+.Project-right3 a img{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+}
+
+/*Testimonial*/
+.Testi{
+    color: black;
+    margin-bottom: 30px;
+}
+.Testi-up{
+    display: flex;
+    margin-top: -50px;
+}
+.Testi-up1-1{
+    transform: rotateZ(-30deg);
+    font-weight: bolder;
+    font-size: 25px;
+    color: #FCDA69;
+}
+.Testi-up1-2{
+    font-size: 70px;
+    font-weight: bolder;
+    width: 400px;
+    margin-top: 70px;
+    margin-left: 100px;   
+}
+.Testi-up2{
+    margin-top: 130px;
+    display: flex;
+}
+.Testi-up2 div{
+    border-bottom: 1px black solid;
+    padding-right:30px;
+    height: 13px;
+    margin-right: 20px;
+}
+.Testi-up2 p{
+    font-size: 20px;
+    width: 470px;
+}
+.Testi-up3{
+    position: relative;
+    top: 280px;
+    left: 50px;
+}
+.Testi-up3 button{
+    border-radius: 50%;
+    margin-right: 15px;
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    transform: rotateZ(-45deg);
+}
+.Testi-down{
+    display: flex;
+}
+.Testi-down1{
+    border-radius: 800px;
+    height: 400px;
+    margin-left: 50px;
+}
+.Testi-down2{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 750px;
+    font-size: 18px;
+    margin-left: 50px;
+    margin-top: 8px;
+    padding-top: 50px;
+    height: 370px;
+}
+.Testi-down2-1{
+    width: 450px;
+}
+.Testi-down2-3{
+    display: flex;
+}
+.Testi-down2-3 sup{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+/*Greetings*/
+
+.Greet{
+    background-color: #FCDA69;
+    display: flex;
+    color: black;
+}
+.Greet-left1{
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+    transform: rotateZ(-30deg);
+}
+.Greet-left2{
+    font-size: 70px;
+    font-weight: bolder;
+    width: 500px;
+    margin-top: 90px;
+    margin-left: 100px;
+}
+.Greet-left3{
+    display: flex;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    border-top: 2px black solid;
+    padding-top: 20px;
+}
+.Greet-left3-1{
+    background-color: aliceblue;
+    padding: 0 20px;
+    padding-top: 20px;
+    border-radius: 50%;
+}
+.Greet-left3-1 img{
+    height: 50px;
+}
+.Greet-left3-11{
+    background-color: aliceblue;
+    padding: 0 13px;
+    padding-top: 10px;
+    border-radius: 50%;
+    height: 90px;
+}
+.Greet-left3-11 img{
+    height: 70px;
+}
+.Greet-left3-2{
+    margin-left: 30px;
+}
+.Greet-left3-2-1{
+    position: relative;
+    top: 10px;
+}
+.Greet-left3-2-2{
+    position: relative;
+    width: 400px;
+}
+.Greet-right button{
+    height: 490px;
+    width: 490px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    outline: 2px #FCDA69 solid;
+    outline-offset: -30px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.Greet-right button p{
+    margin: auto;
+}
+.Greet-right1{
+    font-size: 60px;
+    font-weight: bold;
+    color: #FCDA69;
+    position: relative;
+    left: 20px;
+}
+.Greet-right2{
+    transform: rotateZ(45deg);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 70px;
+    background-color: aliceblue;
+    color: black;
+    position: relative;
+    top: 15px;
+    right: 15px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
 }
