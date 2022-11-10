@@ -62,6 +62,7 @@ header{
     padding: 0 3.5%;
     color: black;
     padding-bottom: 10vh;
+    justify-content: space-between;
 }
 header .left{
     width: 50%;
@@ -97,9 +98,7 @@ header .left-1-1{
 }
 header .left-2{
     display: flex;
-    justify-content: space-between;
     margin-top: 5vh;
-    width: 90%;
 }
 header a{
     text-decoration: none;
@@ -111,7 +110,7 @@ a .left-2-1{
     background-color: black;
     align-items: center;
     justify-content: center;
-    padding: 1rem 2rem 0.5rem;
+    padding: 1rem 1.5rem 0.5rem;
     display: flex;
     font-weight: 700;
 }
@@ -126,10 +125,11 @@ a .left-2-2{
     background-color: #FCDA69;
     align-items: center;
     justify-content: center;
-    padding: 1rem 2rem 0.5rem;
+    padding: 1rem 1.5rem 0.5rem;
     display: flex;
     font-weight: 700;
     color: black;
+    margin-left: 1rem;
 }
 .left-2-2 img{
     height: 4vh;
@@ -167,15 +167,22 @@ header .right-1{
     top: 20vh;
     right: 15%;
     justify-content: space-between;
-    width: 60%;
+    width: 70%;
 }
 header .right-1-1{
     font-weight: bolder;
     margin-top: 2vh;
     font-size: 0.7em;
 }
-header .right-1 img{
+.right-1 a img{
     height: 7vh;
+    outline: 0 black solid;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+.right-1 a img:hover{
+    transform: scale(1.2);
+    transition: 0.2;
 }
 header .right-2{
     text-decoration: none;
@@ -203,242 +210,244 @@ header .right-2-3{
 #Service{
     background-color: #FCDA69;
     display: flex;
-    padding-top: 50px;
-    padding-bottom: 50px;
     color: black;
+    padding: 5vh 5%;
+    justify-content: space-between;
 }
 .Service-left{
-    width: 650px;
+    width: 50%;
 }
 .Service-left1{
     position: relative;
     transform: rotateZ(35deg);
-    bottom: -230px;
-    right: -425px;
-    font-size: 30px;
+    left: 65%;
+    top: 12vh;
+    font-size: 1.4em;
     font-weight: bolder;
+    width: 20%;
 }
 .Service-left2{
-    font-size: 110px;
-    padding-left: 70px;
+    font-size: 6.7em;
     line-height: 0,1;
     font-weight: bolder;
     color: white;
 }
 .Service-left3{
     display: flex;
-    padding-left: 70px;
-    width: 600px;
-    font-size: 18px;
+    width:82%;
+    font-size: 1.1em;
 }
 .Service-left3 sup{
-    padding-right: 20px;
-    padding-top: 10px;
+    padding-top: 2vh;
+    padding-right: 3%;
 }
-.Service-left .Service-left-button1{
+.Service-left a{
+    text-decoration: none;
+    color:white;
+}
+a .Service-left-button1{
     display: flex;
-    margin-left: 70px;
     border-style: unset;
     border-radius: 13px;
     background-color: black;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 17px;
-    padding-bottom: 8px;
-    margin-right: 10px;
+    padding: 1rem 1rem 0.5rem;
 }
-.Service-left-button1 a{
+.Service-left-button1{
     display: flex;
     text-decoration: none;
-    color: white;
 }
-.Service-left-button1 a p{
-    padding-right: 20px;
+.Service-left-button1 p{
     font-weight: bold;
-    margin-top: 5px;
-    color: white;
+    font-size: 0.8em;
 }
-.Service-left-button1 a img{
-    width: 20px;
-    height: 20px;
-    margin-top: 10px;
+.Service-left-button1 img{
+    height: 4vh;
+    margin-left: 1rem;
 }
 .Service-right{
-    margin-left: 50px;
-    color: black;
+    width: 50%;
+    margin-top: 5vh;
 }
 .Service-right1-1{
     display: flex;
-    margin-top: 10px;
-    border-top:1px solid black ;
-    padding-top: 10px;
-    width: 600px;
+    border-top:2px solid black ;
+    padding: 1vh 0;  
 }
 .Service-right1-1-1{
     font-weight: bolder;
-
+    font-size: 1.3em;
+    width: 18%;
 }
 .Service-right1-1-2{
-    width: 150px;
-    margin-left: 20px;
-    margin-top: -20px;
+    width: 60%;
 }
 .Service-right1-1-2-1{
-    font-size: 50px;
+    font-size: 2.6em;
     font-weight: bolder;
 }
 .Service-right1-1-2-2 a{
     text-decoration: none;
     color: black;
 }
-.Service-right1-1 button{
-    border: unset;
-    background-image: url(Image/Panah.png);
-    background-size: contain;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    position: relative;
-    left: 350px;
-    top: 130px;
+.Service-right1-1 a{
+    width: 20%;
+    text-align: right;
+    margin-top: 20vh;
 }
-
+.Service-right1-1 a button{
+    border: unset;
+    border-radius: 50%;
+    background-color: white;
+    padding:  0.2rem 1.1rem;
+    font-size: 1.7em;
+    transform: rotateZ(45deg);
+    transition: 0.3s;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.Service-right1-1 a button:hover{
+    transition: 0.3s;
+    color: white;
+    background-color: black;
+    transform: rotateZ(90deg);
+}
 /*Skill and Experience*/
 
 .Skill{
     display: flex;
+    padding: 5vh 5%;
+    color: black;
+    justify-content: space-between;
+}
+.Skill-left{
     width: 50%;
-    padding-bottom: 50px;
+}
+.Skilll{
+    margin-left: -2%;
 }
 .Skill-left1{
-    position: relative;
     transform: rotateZ(-30deg);
-    top: -60px;
-    left: 15px;
     color: #FCDA69;
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 1.4em;
+    width: 25%;
+    position: relative;
+    top: 6vh;
 }
 .Skill-left2{
-    font-size: 85px;
+    position: relative;
+    margin-left: 12%;
+    font-size: 5em;
     font-weight: bolder;
     color: black;
-    width: 480px;
-    margin-left: 150px;
 }
 .Skill-left3{
     display: flex;
-    margin-left: 98px;
-    padding-top: 50px;
-    font-size: 20px;
-    width: 520px;
+    margin-top: 5vh;
+}
+.Skill-left3 sup{
+    margin-top: 2vh;
 }
 .Skill-left3 p{
-    margin-left: 20px;
-    margin-top: -15px;
+    margin-left: 4%;
+    font-size: 1.1em;
+    width: 84%;
+}
+.Skillll{
+    margin-left: 5%;
 }
 .Skill-left4{
-    font-size: 30px;
+    font-size: 1.9em;
     font-weight: bolder;
-    margin-left: 110px;
-    color: black;
 }
 .Skill-left5{
-    font-size: 20px;
-    margin-left: 110px;
+    font-size: 1.2em;
 }
 .Skill-left6{
     display: flex;
-    margin-left: 95px;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
 }
 .Skill-left6-list{
     margin-right: 20px;
-    margin-top: 20px;
 }
 .Skill-left6-list .img1{
-    height: 140px;
-    margin-top: -19px;
+    height: 17vh;
+    margin-top: -1vh;
 }
 .Skill-left6-list .img2{
-    height: 130px;
-    margin-top: -12px;
+    height: 16vh;
+    margin-top: 0.5vh;
 }
 .Skill-left6-list .img3{
-    height: 125px;
-    margin-top: -15px;
+    height: 15.5vh;
 }
 .Skill-left6-list p{
-    font-size: 20px;
+    font-size: 1.1em;
     font-weight: bolder;
-}
-.Skill-left6-list .p1{
-    margin-left: 32px;
-}
-.Skill-left6-list .p2{
-    margin-left: 30px;
-    margin-top: 3px;
+    margin-left: 27%;
 }
 .Skill-left6-list .p3{
-    margin-left: 10px;
-    margin-top: 10px;
+    margin-left: 2%;
 }
 .Skill-right{
-    margin-left: 150px;
+    width: 50%;
+    margin-left: 10%;
 }
 .Skill-right1{
-    font-size: 40px;
+    font-size: 3em;
     font-weight: bolder;
     color: black;
-    margin-top: 60px;
+    margin-top: 9vh;
 }
-.Skill-right2{
+.Skill-right .Skill-right2{
     border-top: 1px black solid;
-    padding-top: 10px;
+    padding-top: 2vh;
     display: flex;
     font-weight: bolder;
+    font-size: 0.8em;
 }
 .Skill-right2 .pp{
-    width: 200px;
+    width: 25%;
 }
 .Skill-right2 div{
-    width: 300px;
+    width: 75%;
+    margin-left: 5%;
+}
+.Skill-right2 div p:nth-child(1){
+    margin-bottom: 1vh;
 }
 .Skill-right3-1{
-    margin-top: 70px;
+    margin-top: 5vh;
 }
-.Skill-right3-1 button{
-    border-radius: 50%;
-    background-color: black;
-    padding-bottom: 10px;
-    padding: 25px 30px 35px 30px;
-    outline: 2px #FCDA69 solid;
-    outline-offset: -20px;
-    transition: ease 0.5s;
-}
-.Skill-right3-1 button a{
-    display: flex;
-    color: white;
+.Skill-right3-1 a{
     text-decoration: none;
 }
-.Skill-right3-1 button p{
-    padding-top: 20px;
-
+.Skill-right3-1  a button{
+    border-radius: 50%;
+    background-color: black;
+    outline: 2px #FCDA69 solid;
+    outline-offset: -1rem;
+    transition: ease 0.5s;
+    padding: 3rem 1.8rem 1.5rem;
+    display: flex;
+    color: white;
 }
-.Skill-right3-1 button .lo{
-    font-size: 20px;
-    padding-top: 51px;
-    padding-right: 10px;
+.Skill-right3-1 a button .lo{
+    font-size: 1em;
+    font-weight: bolder;
+    padding-top: 2vh;
+    padding-right: 1rem;
 }
-.Skill-right3-1 button a .lol{
-    transform: rotateZ(45deg);
-    padding-left: 20px;
-    font-size: 60px;
+.Skill-right3-1 a button .lol{
+    font-size:2.5em;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
-    font-weight: 0;
+    font-weight:lighter;
+    transform: rotateZ(45deg);
 }
 .Skill-right3-1 button:hover{
     transition: ease 0.5s;
-    outline-offset: -10px;
+    outline-offset: -0.7rem;
 }
 .Skill-right3-1 button::after:hover{
     outline-offset: -20px;
@@ -450,160 +459,102 @@ header .right-2-3{
     background-color: #FCDA69;
     display: flex;
     color: black;
-    padding-top: 30px;
-    padding-bottom: 50px;
+    padding: 5vh 7%;
+}
+.Project-left{
+    width: 33%;
 }
 .Project-left1{
-    font-size: 20px;
+    font-size: 1.1em;
     transform: rotateZ(-30deg); 
     color: white;
     font-weight: bolder;
-    font-size: 20px;
     position: relative;
-    top: -10px;
-    left: 5px;   
+    top: 5vh;
+    right: 10%;
+    width: 30%;
 }
 .Project-left2{
-    font-size: 70px;
+    font-size: 4em;
     font-weight: bolder;
-    margin-left: 80px;
-    margin-top: 50px;
-    width: 360px;
-    margin-bottom: 30px;
 }
-.Project-left3{
+.Project-left3 , .Project-middle1 , .Project-right1{
     display: flex;
-    border-top: 1px solid black;
-    margin-left: 80px;
-    padding-top: 20px;
+    border-top: 1.5px solid black;
+    width: 90%;
+    padding-top: 3vh;
 }
-.Project-left3 p{
-    font-size: 30px;
+.Project-left3 p , .Project-middle1 p , .Project-right1 p{
+    font-size: 1.8em;
     font-weight: bolder;
-    width: 290px;
-}
-.Project-left3 button{
-    margin-top: 20px;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    border-style: unset;
-    transform: rotateZ(45deg);
-}
-.Project-left3 button a{
-    text-decoration: none;
-    color: black;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 30px;
 }
 .Project-left4{
-    height:220px;
-    width: 280px;
+    height: 35vh;
+    width: 100%;
     background-image: url(Image/Mask\ Group\ 6.png);
-    margin-left: 100px;
     background-size: contain;
     background-repeat: no-repeat;
+    margin-left: 5%;
 }
 .Project-middle{
-    margin-top: 170px;
-    margin-left: 30px;
-    margin-right: 30px;
-}
-.Project-middle1{
-    display: flex;
-    border-top: 1px solid black;
-    margin-left: 50px;
-    padding-top: 20px;
-}
-.Project-middle1 p{
-    font-size: 30px;
-    font-weight: bolder;
-    width: 290px;
-}
-.Project-middle1 button{
-    margin-top: 20px;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    border-style: unset;
-    transform: rotateZ(45deg);
-}
-.Project-middle1 button a{
-    text-decoration: none;
-    color: black;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 30px;
+    margin-top: 22vh;
+    width: 33.33%;
 }
 .Project-middle2{
-    height:220px;
-    width: 280px;
+    height: 35vh;
+    width: 100%;
     background-image: url(Image/Mask\ Group\ 5.png);
-    margin-left: 70px;
     background-size: contain;
     background-repeat: no-repeat;
+    margin-left: 5%;
 }
 .Project-right{
-    margin-top: 25px;
-}
-.Project-right1{
-    display: flex;
-    border-top: 1px solid black;
-    margin-left: 50px;
-    padding-top: 20px;
-}
-.Project-right1 p{
-    font-size: 30px;
-    font-weight: bolder;
-    width: 290px;
-}
-.Project-right1 button{
-    margin-top: 20px;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    border-style: unset;
-    transform: rotateZ(45deg);
-}
-.Project-right1 button a{
-    text-decoration: none;
-    color: black;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 30px;
+    width: 33.33%;
+    margin-top: 7vh;
 }
 .Project-right2{
-    height:220px;
-    width: 280px;
-    background-image: url(Image/Mask\ Group\ 4.png);
-    margin-left: 70px;
+    height: 35vh;
+    width: 100%;
+    background-image: url(Image/Mask\ Group\ 6.png);
     background-size: contain;
     background-repeat: no-repeat;
+    margin-left: 5%;
 }
-.Project-right .Project-right3{
-    border-radius: 13px;
-    background-color: black;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 17px;
-    padding-bottom: 8px;
-    margin-left: 170px;
-    margin-top: 220px;
-    border: 1px solid black;
-    z-index: 1;
+.Project-left3 a button , .Project-middle1 a button , .Project-right1 a button{
+    text-decoration: none;
+    border: unset;
+    border-radius: 50%;
+    background-color: white;
+    padding:  0.2rem 1.1rem;
+    font-size: 1.7em;
+    transform: rotateZ(45deg);
+    transition: 0.3s;
+    margin-top: 5vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
 }
-.Project-right3 a{
-    display: flex;
+
+.Project-right a{
     text-decoration: none;
 }
-.Project-right3 a p{
-    padding-right: 20px;
-    font-weight: bold;
-    margin-top: 5px;
-    color: white;
+.Project-right a .Project-right3{
+    display: flex;
+    text-decoration: none;
+    border-radius: 13px;
+    background-color: black;
+    border: unset;
+    z-index: 1;
+    padding: 1.7rem 1rem 1rem;
+    margin-top: 20vh;
+    margin-left: 50%;
 }
-.Project-right3 a img{
-    width: 20px;
-    height: 20px;
-    margin-top: 10px;
+.Project-right3 p{
+    font-weight: bold;
+    color: white;
+    margin-right: 1rem;
+    font-size: 0.9em;
+}
+.Project-right3 img{
+    height: 4vh;
 }
 
 /*Testimonial*/
