@@ -62,7 +62,7 @@ header{
     padding: 0 3.5%;
     color: black;
     padding-bottom: 10vh;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 header .left{
     width: 33.33%;
@@ -139,6 +139,7 @@ a .left-2-2{
 
 header .middle{
     width: 33.33%;
+    height: 33.33%;
     z-index: -1;
 }
 header .right{
@@ -149,17 +150,18 @@ header .right{
 header .right-teks1{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
-    font-size: 4em;
+    font-size: 3.5em;
     color: black;
     margin-left: 3%;
 }
 header .right-teks2{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
-    font-size: 2em;
+    font-size: 1.8em;
     color: black;
     text-indent: -1.4rem;
     margin-left: 8%;
+    width: 80%;
 }
 header .right-1{
     display: flex;
