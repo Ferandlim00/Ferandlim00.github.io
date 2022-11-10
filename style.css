@@ -65,7 +65,7 @@ header{
     justify-content: space-between;
 }
 header .left{
-    width: 50%;
+    width: 33.33%;
 }
 header .left-teks1{
     position: relative;
@@ -138,13 +138,13 @@ a .left-2-2{
 }
 
 header .middle{
-    height: 75vh;
+    width: 33.33%;
     z-index: -1;
 }
 header .right{
     margin-top: 15vh;
     margin-left: 1%;
-    width: 50%;
+    width: 33.33%;
 }
 header .right-teks1{
     font-family: Arial, Helvetica, sans-serif;
@@ -465,7 +465,7 @@ a .Service-left-button1{
     width: 33%;
 }
 .Project-left1{
-    font-size: 1.1em;
+    font-size: 1.2em;
     transform: rotateZ(-30deg); 
     color: white;
     font-weight: bolder;
@@ -536,7 +536,7 @@ a .Service-left-button1{
 .Project-right a{
     text-decoration: none;
 }
-.Project-right a .Project-right3{
+a .Project-right3{
     display: flex;
     text-decoration: none;
     border-radius: 13px;
