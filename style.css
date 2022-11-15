@@ -334,7 +334,7 @@ a .Service-left-button1{
     transform: rotateZ(-30deg);
     color: #FCDA69;
     font-weight: bolder;
-    font-size: 1.4em;
+    font-size: 3vh;
     width: 25%;
     position: relative;
     top: 6vh;
@@ -342,7 +342,7 @@ a .Service-left-button1{
 .Skill-left2{
     position: relative;
     margin-left: 12%;
-    font-size: 5em;
+    font-size: 12vh;
     font-weight: bolder;
     color: black;
 }
@@ -355,14 +355,14 @@ a .Service-left-button1{
 }
 .Skill-left3 p{
     margin-left: 4%;
-    font-size: 1.1em;
+    font-size: 2.5vh;
     width: 84%;
 }
 .Skillll{
     margin-left: 5%;
 }
 .Skill-left4{
-    font-size: 1.9em;
+    font-size: 2.5vh;
     font-weight: bolder;
 }
 .Skill-left5{
@@ -373,9 +373,6 @@ a .Service-left-button1{
     justify-content: space-around;
     align-items: center;
     width: 70%;
-}
-.Skill-left6-list{
-    margin-right: 20px;
 }
 .Skill-left6-list .img1{
     height: 17vh;
@@ -389,7 +386,7 @@ a .Service-left-button1{
     height: 15.5vh;
 }
 .Skill-left6-list p{
-    font-size: 1.1em;
+    font-size: 2.5vh;
     font-weight: bolder;
     margin-left: 27%;
 }
@@ -401,7 +398,7 @@ a .Service-left-button1{
     margin-left: 10%;
 }
 .Skill-right1{
-    font-size: 3em;
+    font-size: 7vh;
     font-weight: bolder;
     color: black;
     margin-top: 9vh;
@@ -411,7 +408,7 @@ a .Service-left-button1{
     padding-top: 2vh;
     display: flex;
     font-weight: bolder;
-    font-size: 0.8em;
+    font-size: 2vh;
 }
 .Skill-right2 .pp{
     width: 25%;
@@ -435,15 +432,18 @@ a .Service-left-button1{
     outline: 2px #FCDA69 solid;
     outline-offset: -1rem;
     transition: ease 0.5s;
-    padding: 3rem 1.8rem 1.5rem;
+    width: 10rem;
+    height: 10rem;
     display: flex;
     color: white;
+}
+.Skill-right3-1 a button p{
+    align-items: center;
+    margin: auto;
 }
 .Skill-right3-1 a button .lo{
     font-size: 1em;
     font-weight: bolder;
-    padding-top: 2vh;
-    padding-right: 1rem;
 }
 .Skill-right3-1 a button .lol{
     font-size:2.5em;
@@ -550,7 +550,7 @@ a .Service-left-button1{
 a .Project-right3{
     display: flex;
     text-decoration: none;
-    border-radius: 13px;
+    border-radius: 1rem;
     background-color: black;
     border: unset;
     z-index: 1;
@@ -562,7 +562,7 @@ a .Project-right3{
     font-weight: bold;
     color: white;
     margin-right: 1rem;
-    font-size: 0.9em;
+    font-size: 3vh;
 }
 .Project-right3 img{
     height: 4vh;
