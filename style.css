@@ -33,10 +33,10 @@ nav{
     padding-right: 20%;
 }
 .nav1 .title{
-    font-size: 1.3em;
+    font-size: 3vh;
     line-height: 0.6;
     font-weight: bolder;
-    margin-top: 1vh;
+    margin-top: 0.7vh;
 }
 nav ul{
     display: flex;
@@ -47,7 +47,7 @@ nav ul{
 }
 nav ul li a{
     text-decoration: none;
-    font-size: 1.4em;
+    font-size: 3.5vh;
     color: black;
     font-weight: bolder;
     transition: 0.3s;
@@ -71,12 +71,12 @@ header .left{
 header .left-teks1{
     position: relative;
     top: 10vh;
-    left: 70%;
+    left: 65%;
     color: #FCDA69;
     z-index: 1;
     transform: rotateZ(30deg);
     font-weight: bolder;
-    font-size: 1.1em;
+    font-size: 3vh;
     animation: shake 0.5s linear infinite;
     width: 20%;
 }
@@ -86,12 +86,12 @@ header .left-teks1{
     100% {transform: rotateZ(30deg);}
 }
 header .left-teks2{
-    font-size: 4em;
+    font-size: 10vh;
     font-weight: 800;
 }
 header .left-1{
     display: flex;
-    font-size: 0.9em;
+    font-size: 2vh;
 }
 header .left-1-1{
     margin-top: 2vh;
@@ -107,7 +107,7 @@ header a{
 }
 a .left-2-1{
     border-style: unset;
-    border-radius: 13px;
+    border-radius: 1rem;
     background-color: black;
     align-items: center;
     justify-content: center;
@@ -122,7 +122,7 @@ a .left-2-1{
 }
 a .left-2-2{
     border-style: unset;
-    border-radius: 13px;
+    border-radius: 1rem;
     background-color: #FCDA69;
     align-items: center;
     justify-content: center;
@@ -151,14 +151,14 @@ header .right{
 header .right-teks1{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
-    font-size: 3.5em;
+    font-size: 8vh;
     color: black;
     margin-left: 3%;
 }
 header .right-teks2{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
-    font-size: 1.8em;
+    font-size: 4vh;
     color: black;
     text-indent: -1.4rem;
     margin-left: 8%;
@@ -175,7 +175,7 @@ header .right-1{
 header .right-1-1{
     font-weight: bolder;
     margin-top: 2vh;
-    font-size: 0.7em;
+    font-size: 2vh;
 }
 .right-1 a img{
     height: 7vh;
@@ -192,7 +192,7 @@ header .right-2{
     color: black;
 }
 header .right-2-2{
-    font-size: 1.15em;
+    font-size: 3vh;
     font-weight: bold;
     transform: rotateZ(-90deg);
     width: 40%;
@@ -226,12 +226,12 @@ header .right-2-3{
     transform: rotateZ(35deg);
     left: 65%;
     top: 12vh;
-    font-size: 1.4em;
+    font-size: 3vh;
     font-weight: bolder;
     width: 20%;
 }
 .Service-left2{
-    font-size: 6.7em;
+    font-size: 16vh;
     line-height: 0,1;
     font-weight: bolder;
     color: white;
@@ -239,7 +239,7 @@ header .right-2-3{
 .Service-left3{
     display: flex;
     width:82%;
-    font-size: 1.1em;
+    font-size: 2.4vh;
 }
 .Service-left3 sup{
     padding-top: 2vh;
@@ -252,7 +252,7 @@ header .right-2-3{
 a .Service-left-button1{
     display: flex;
     border-style: unset;
-    border-radius: 13px;
+    border-radius: 1rem;
     background-color: black;
     padding: 1rem 1rem 0.5rem;
 }
@@ -286,7 +286,7 @@ a .Service-left-button1{
     width: 60%;
 }
 .Service-right1-1-2-1{
-    font-size: 2.6em;
+    font-size: 6.5vh;
     font-weight: bolder;
 }
 .Service-right1-1-2-2 a{
@@ -302,8 +302,9 @@ a .Service-left-button1{
     border: unset;
     border-radius: 50%;
     background-color: white;
-    padding:  0.2rem 1.1rem;
-    font-size: 1.7em;
+    width: 3rem;
+    height: 3rem;
+    font-size: 2rem;
     transform: rotateZ(45deg);
     transition: 0.3s;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
