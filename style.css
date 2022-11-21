@@ -64,6 +64,7 @@ header{
     padding-bottom: 10vh;
     justify-content: space-around;
     width: 100%;
+    margin: 0;
 }
 header .left{
     width: 33.33%;
@@ -114,6 +115,7 @@ a .left-2-1{
     padding: 1rem 1.5rem 0.5rem;
     display: flex;
     font-weight: 700;
+    font-size: 2vh
 }
 .left-2-1 img{
     height: 4vh;
@@ -131,6 +133,7 @@ a .left-2-2{
     font-weight: 700;
     color: black;
     margin-left: 1rem;
+    font-size: 2vh;
 }
 .left-2-2 img{
     height: 4vh;
@@ -224,8 +227,8 @@ header .right-2-3{
 .Service-left1{
     position: relative;
     transform: rotateZ(35deg);
-    left: 65%;
-    top: 12vh;
+    left: 67%;
+    top: 10vh;
     font-size: 3vh;
     font-weight: bolder;
     width: 20%;
@@ -262,7 +265,7 @@ a .Service-left-button1{
 }
 .Service-left-button1 p{
     font-weight: bold;
-    font-size: 0.8em;
+    font-size: 2vh;
 }
 .Service-left-button1 img{
     height: 4vh;
@@ -319,7 +322,7 @@ a .Service-left-button1{
 
 .Skill{
     display: flex;
-    padding: 5vh 5%;
+    padding: 0vh 5% 7vh;
     color: black;
     justify-content: space-between;
     width: 100%;
@@ -470,17 +473,17 @@ a .Service-left-button1{
     width: 33%;
 }
 .Project-left1{
-    font-size: 1.2em;
+    font-size: 3vh;
     transform: rotateZ(-30deg); 
     color: white;
     font-weight: bolder;
     position: relative;
-    top: 5vh;
+    top: 4vh;
     right: 10%;
     width: 30%;
 }
 .Project-left2{
-    font-size: 4em;
+    font-size: 11vh;
     font-weight: bolder;
 }
 .Project-left3 , .Project-middle1 , .Project-right1{
@@ -490,7 +493,7 @@ a .Service-left-button1{
     padding-top: 3vh;
 }
 .Project-left3 p , .Project-middle1 p , .Project-right1 p{
-    font-size: 1.8em;
+    font-size: 4vh;
     font-weight: bolder;
 }
 .Project-left4{
@@ -499,7 +502,7 @@ a .Service-left-button1{
     background-image: url(Image/Mask\ Group\ 6.png);
     background-size: contain;
     background-repeat: no-repeat;
-    margin-left: 5%;
+    justify-content: center;
 }
 .Project-middle{
     margin-top: 22vh;
@@ -511,7 +514,7 @@ a .Service-left-button1{
     background-image: url(Image/Mask\ Group\ 5.png);
     background-size: contain;
     background-repeat: no-repeat;
-    margin-left: 5%;
+    justify-content: center;
 }
 .Project-right{
     width: 33.33%;
@@ -523,7 +526,7 @@ a .Service-left-button1{
     background-image: url(Image/Mask\ Group\ 6.png);
     background-size: contain;
     background-repeat: no-repeat;
-    margin-left: 5%;
+    justify-content: center;
 }
 .Project-left3 a button , .Project-middle1 a button , .Project-right1 a button{
     text-decoration: none;
@@ -562,7 +565,7 @@ a .Project-right3{
     font-weight: bold;
     color: white;
     margin-right: 1rem;
-    font-size: 3.1vh;
+    font-size: 2vh;
 }
 .Project-right3 img{
     height: 4vh;
@@ -582,7 +585,7 @@ a .Project-right3{
     width: 40%;
 }
 .Testi-up1-1{
-    font-size: 1.3em;
+    font-size: 3vh;
     transform: rotateZ(-30deg); 
     color: #FCDA69;
     font-weight: bolder;
@@ -592,7 +595,7 @@ a .Project-right3{
     width: 30%;
 }
 .Testi-up1-2{
-    font-size: 4em;
+    font-size: 11vh;
     font-weight: bolder;
     width: 100%;  
 }
@@ -607,7 +610,7 @@ a .Project-right3{
     margin-right: 1rem;
 }
 .Testi-up2 p{
-    font-size: 1.1em;
+    font-size: 1.5vh;
     width: 25rem;
 }
 .Testi-up3{
@@ -617,7 +620,8 @@ a .Project-right3{
     border-radius: 50%;
     font-size: 1.4em;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding:0.45rem 0.9rem 0.4rem;
+    height: 3rem;
+    width: 3rem;
     background-color: white;
     border: 0.1px black solid;
     transform: rotateZ(-45deg);
@@ -635,7 +639,7 @@ a .Project-right3{
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     width: 70%;
-    font-size: 1.2em;
+    font-size: 3vh;
     margin-left: 7%;
     margin-top: 2vh;
     padding-top: 6vh;
@@ -666,17 +670,17 @@ a .Project-right3{
     width: 50%;
 }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
 .Greet-left1{
-    font-size: 1.3em;
+    font-size: 3vh;
     transform: rotateZ(-30deg); 
     color:white;
     font-weight: bolder;
     position: relative;
-    top: 5vh;
+    top: 4vh;
     right: 12%;
     width: 30%;
 }
 .Greet-left2{
-    font-size: 4em;
+    font-size: 8vh;
     font-weight: bolder;
     width: 60%;
 }
@@ -711,8 +715,9 @@ a .Project-right3{
 .Greet-left3-2-2{
     position: relative;
 }
-.Greet-right{
+.Greet .Greet-right{
     width: 50%;
+    justify-content: center;
 }
 .Greet-right button{
     background-color: black;
