@@ -663,7 +663,7 @@ a .Project-right3{
     display: flex;
     color: black;
     justify-content: space-between;
-    padding: 0 9%;
+    padding:5vh 9%;
     width: 100%;
 }  
 .Greet-left1{
@@ -730,7 +730,7 @@ a .Project-right3{
     height: 30rem;
     width: 30rem;
     justify-content: space-evenly;
-    margin-top: 3vh;
+    margin-top: 5vh;
 }
 .Greet-right button:hover{
     outline-offset: -15px;
