@@ -16,7 +16,7 @@
     <!--Navbar-->
 
 
-    <nav data-aos="fade-down" data-aos-delay="500">
+    <nav data-aos="fade-down" data-aos-delay="500" id="nav">
         <div class="nav1">
             <img src="Image/Logo.png" alt="">
             <div class="title">
@@ -27,8 +27,8 @@
         <ul>
             <li><a href="#Service">About</a></li>
             <li><a href="#Skill">Skill&Experience</a></li>
-            <li><a href="#Testi">Testimonial</a></li>
-            <li><a href="">Portofolio</a></li>
+            <li><a href="#Project">Project</a></li>
+            <li><a href="#Greet">Contact me</a></li>
         </ul>
     </nav>
     
@@ -37,7 +37,7 @@
     
     
     <header>
-        <div class="left" data-aos="fade-right" data-aos-delay="1000">
+        <div class="left" data-aos="fade-up" data-aos-delay="1000">
             <div>
             <p class="left-teks1">
                 Hello!
@@ -66,7 +66,7 @@
             </div>
         </div>
         <img class="middle" src="Image/Path 3.png" data-aos="zoom-in" data-aos-delay="1500">
-        <div class="right" data-aos="fade-left" data-aos-delay="1000">
+        <div class="right" data-aos="fade-up" data-aos-delay="1000">
             <p class="right-teks1">
                 My Principle
             </p>
@@ -91,7 +91,7 @@
     
     
     <section id="Service">
-        <div class="Service-left">
+        <div class="Service-left" data-aos="fade-right">
             <div class="Service-leftt">
             <p class="Service-left1">
                 Service
@@ -111,8 +111,8 @@
             </button>
             </a>
         </div>
-        <div class="Service-right">
-                <div class="Service-right1-1">
+        <div class="Service-right" data-aos="fade-right">
+                <div class="Service-right1-1" data-aos="fade-right" data-aos-delay="500"data-aos-duration="1100">
                     <div class="Service-right1-1-1">
                         <p>01/</p>
                     </div>
@@ -124,9 +124,9 @@
                             <a href="">Explore</a>
                         </p>
                     </div>
-                    <a href=""><button>&uarr;</button></a>
+                    <a href="#nav" class="gg"><button class="b1">&uarr;</button></a>
                 </div>
-                <div class="Service-right1-1">
+                <div class="Service-right1-1"data-aos="fade-right" data-aos-delay="1000"data-aos-duration="1100">
                     <div class="Service-right1-1-1">
                         <p>02/</p>
                     </div>
@@ -138,9 +138,9 @@
                             <a href="">Explore</a>
                         </p>
                     </div>
-                    <a href=""><button>&uarr;</button></a>
+                    <a href="#nav" class="gg"><button class="b1">&uarr;</button></a>
                 </div>
-                <div class="Service-right1-1">
+                <div class="Service-right1-1" data-aos="fade-right" data-aos-delay="1500"data-aos-duration="1100">
                     <div class="Service-right1-1-1">
                         <p>03/</p>
                     </div>
@@ -162,7 +162,7 @@
 
 
     <section class="Skill" id="Skill">
-        <div class="Skill-left" data-aos="fade-right" data-aos-offset="500">
+        <div class="Skill-left" data-aos="fade-right" data-aos-offset="500" data-aos-duration="1200">
             <div class="Skilll">
             <p class="Skill-left1">
                 Experience
@@ -203,7 +203,7 @@
                 </div>
             </div>
         </div>
-        <div class="Skill-right" data-aos="fade-left" data-aos-offset="500">
+        <div class="Skill-right" data-aos="fade-left" data-aos-offset="500" data-aos-duration="1200">
             <p class="Skill-right1">
                 Experience
             </p>
@@ -263,21 +263,21 @@
                 Latest Projects
             </p>
             </div>
-            <div class="Project-left3">
+            <div class="Project-left3" data-aos="fade-up">
                 <p>Plantshop Landing Page Website</p>
                 <a href=""><button>&uarr;</button></a>
             </div>
             <div class="Project-left4"></div>
         </div>
         <div class="Project-middle">
-            <div class="Project-middle1">
+            <div class="Project-middle1" data-aos="fade-up">
                 <p>VPS Hosting Website Program</p>
                 <a href=""><button>&uarr;</button></a>
             </div>
             <div class="Project-middle2"></div>
         </div>
         <div class="Project-right">
-            <div class="Project-right1">
+            <div class="Project-right1" data-aos="fade-up">
                 <p>Book Landing Page Coding</p>
                 <a href=""><button>&uarr;</button></a>
             </div>
@@ -339,8 +339,8 @@ As The <b>Visual Design."</b>
     <!--Greetings-->
 
 
-    <section class="Greet">
-        <div class="Greet-left">
+    <section class="Greet" id="Greet">
+        <div class="Greet-left" data-aos="flip-left " data-aos-duration="1500">
             <div class="greett">
             <p class="Greet-left1">
                 Experience
@@ -362,17 +362,19 @@ As The <b>Visual Design."</b>
                 </div>
             </div>
         </div>
-        <div class="Greet-right" data-aos="zoom-in">
+        <div class="Greet-right" data-aos="zoom-in" data-aos-duration="1200">
             <button>
                 <p class="Greet-right1">Greet me</p>
                 <p class="Greet-right2">&uarr;</p>
             </button>
         </div>
     </section>
+    <button onclick="topFunction()" id="myBtn" title="Go to top" data-aos="zoom-in">&uarr;</button>
     <script src="bootstrap-5.2.0-dist/js/bootstrap.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>
+    <script src="script.js"></script>
 </body>
 </html>

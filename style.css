@@ -10,6 +10,16 @@
     border-radius: 1px;
     background-color: #FCDA69;
 }
+@keyframes putar {
+    0%  {transform: rotateZ(30deg);}
+    50% {transform: rotateZ(35deg);}
+    100% {transform: rotateZ(30deg);} 
+}
+@keyframes shake {
+    0%  {transform: rotateZ(-30deg);}
+    50% {transform: rotateZ(-35deg);}
+    100% {transform: rotateZ(-30deg);}
+}
 body{
     margin: 0;
     padding: 0;
@@ -72,19 +82,14 @@ header .left{
 header .left-teks1{
     position: relative;
     top: 10vh;
-    left: 65%;
+    left: 40vh;
     color: #FCDA69;
     z-index: 1;
     transform: rotateZ(30deg);
     font-weight: bolder;
     font-size: 3vh;
-    animation: shake 0.5s linear infinite;
+    animation: putar 0.5s linear infinite;
     width: 20%;
-}
-@keyframes shake {
-    0%  {transform: rotateZ(30deg);}
-    50% {transform: rotateZ(35deg);}
-    100% {transform: rotateZ(30deg);}
 }
 header .left-teks2{
     font-size: 10vh;
@@ -205,10 +210,16 @@ header .right-2-2{
 
 }
 header .right-2-3{
-    animation: panah 2s linear infinite;
+    animation: panah 1s linear infinite;
     height: 16vh;
     position: relative;
     left: 90%;   
+}
+@keyframes panah {
+    0%{top: 0;}
+    50% {top: 1vh;}
+    100%{top: 0;}
+    
 }
 
 /*Service I offer*/
@@ -217,7 +228,7 @@ header .right-2-3{
     background-color: #FCDA69;
     display: flex;
     color: black;
-    padding: 5vh 5%;
+    padding: 0 5%;
     justify-content: space-between;
     width: 100%;
 }
@@ -227,11 +238,12 @@ header .right-2-3{
 .Service-left1{
     position: relative;
     transform: rotateZ(35deg);
-    left: 67%;
+    left: 60vh;
     top: 10vh;
     font-size: 3vh;
     font-weight: bolder;
     width: 20%;
+    animation: putar 0.5s linear infinite;
 }
 .Service-left2{
     font-size: 16vh;
@@ -301,7 +313,7 @@ a .Service-left-button1{
     text-align: right;
     margin-top: 20vh;
 }
-.Service-right1-1 a button{
+.Service-right1-1 a .b1{
     border: unset;
     border-radius: 50%;
     background-color: white;
@@ -318,17 +330,47 @@ a .Service-left-button1{
     background-color: black;
     transform: rotateZ(90deg);
 }
+.Service-right1-1 a .b1:hover{
+    transition: 0.3s;
+    color: white;
+    background-color: black;
+    transform: rotateZ(360deg);
+}
+.Service-right1-1 .gg::before{
+    content: "sorry,not available";
+    display: inline-block;
+    color: black;
+    font-size: 2vh;
+    margin-bottom: 1vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 0;
+    transition: 1s;
+}
+.Service-right1-1 .gg:hover::before{
+    opacity: 1;
+    transition: 1s;
+}
+.Service-right1-1 a button{
+    border: unset;
+    border-radius: 50%;
+    background-color: white;
+    width: 3rem;
+    height: 3rem;
+    font-size: 2rem;
+    transform: rotateZ(45deg);
+    transition: 0.3s;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 /*Skill and Experience*/
 
 .Skill{
     display: flex;
     padding: 0vh 5% 7vh;
     color: black;
-    justify-content: space-between;
     width: 100%;
 }
 .Skill-left{
-    width: 50%;
+    width: 40%;
 }
 .Skilll{
     margin-left: -2%;
@@ -341,6 +383,7 @@ a .Service-left-button1{
     width: 25%;
     position: relative;
     top: 6vh;
+    animation:shake 0.5s linear infinite;
 }
 .Skill-left2{
     position: relative;
@@ -397,7 +440,7 @@ a .Service-left-button1{
     margin-left: 2%;
 }
 .Skill-right{
-    width: 50%;
+    width: 40%;
     margin-left: 10%;
 }
 .Skill-right1{
@@ -466,7 +509,7 @@ a .Service-left-button1{
     background-color: #FCDA69;
     display: flex;
     color: black;
-    padding: 5vh 7%;
+    padding: 2vh 7%;
     width: 100%;
 }
 .Project-left{
@@ -480,7 +523,8 @@ a .Service-left-button1{
     position: relative;
     top: 4vh;
     right: 10%;
-    width: 30%;
+    width: 25%;
+    animation:shake 1s linear infinite;
 }
 .Project-left2{
     font-size: 11vh;
@@ -593,6 +637,7 @@ a .Project-right3{
     top: 5vh;
     right: 15%;
     width: 30%;
+    animation:shake 1s linear infinite;
 }
 .Testi-up1-2{
     font-size: 11vh;
@@ -610,7 +655,7 @@ a .Project-right3{
     margin-right: 1rem;
 }
 .Testi-up2 p{
-    font-size: 1.5vh;
+    font-size: 3vh;
     width: 25rem;
 }
 .Testi-up3{
@@ -663,7 +708,7 @@ a .Project-right3{
     display: flex;
     color: black;
     justify-content: space-between;
-    padding:5vh 9%;
+    padding:3vh 9%;
     width: 100%;
 }  
 .Greet-left1{
@@ -677,7 +722,8 @@ a .Project-right3{
     position: relative;
     top: 4vh;
     right: 12%;
-    width: 30%;
+    width:20%;
+    animation:shake 1s linear infinite;
 }
 .Greet-left2{
     font-size: 8vh;
@@ -756,3 +802,31 @@ a .Project-right3{
     height: 6rem;
     width: 6rem;
 }
+
+#myBtn { /* Disembunyikan secara default */
+    position: fixed; /* Posisi Fixed/sticky position */
+    bottom: 20px; /* Tempatkan button di bagian bawah halaman */
+    right: 30px; /* Tempatkan button 30px dari kanan */
+    z-index: 99; /* Pastikan tidak tumpang tindih */
+    border: none; /* Hapus borders */
+    outline: none; /* Hapus outline */
+    background-color: red; /* Atur warna background  */
+    color: white; /* Warna teks */
+    cursor: pointer; /* Tambahkan penunjuk mouse saat mengarahkan kursor */
+     /* Some padding */
+    border-radius: 1rem; /* Sudut membulat */
+    font-size: 1rem; /* Tingkatkan ukuran font */
+    height: 3rem;
+    width: 3rem;
+    background-color: aliceblue;
+    color: black;
+    transition: 1s;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  #myBtn:hover {
+    transform: scale(1.1);/* Tambahkan background abu-abu tua saat mengarahkan kursor */
+    transition: 1s;
+    background-color: black;
+    color: white;
+  }
