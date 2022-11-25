@@ -62,9 +62,21 @@ nav ul li a{
     font-weight: bolder;
     transition: 0.3s;
 }
-nav ul li:hover a{
+nav ul li a:hover{
     color: #FCDA69;
     transition: 0.3s;
+}
+nav ul li a::after{
+    display: block;
+    content: "";
+    width: 0;
+    height: 3vh;
+    border-top: 0.1em solid #FCDA69;
+    transition: 0.5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+    transition: 0.5s;
 }
 /*Header*/
 header{
