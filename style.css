@@ -221,6 +221,11 @@ header .right-2-2{
     top: 8vh;
 
 }
+header .right-1 a:nth-child(3) img{
+    height: 10vh;
+    position: relative;
+    top: -1.5vh;
+}
 header .right-2-3{
     animation: panah 1s linear infinite;
     height: 16vh;
@@ -777,6 +782,9 @@ a .Project-right3{
     width: 50%;
     justify-content: center;
     margin: auto;
+    display: flex;
+    align-items: center;
+    margin: auto;
 }
 .Greet-right button{
     background-color: black;
@@ -842,3 +850,6 @@ a .Project-right3{
     background-color: black;
     color: white;
   }
+
+
+  
