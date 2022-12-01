@@ -528,6 +528,7 @@ a .Service-left-button1{
     color: black;
     padding: 4vh 7%;
     width: 100%;
+    justify-content: center;
 }
 .Project-left{
     width: 33%;
@@ -547,14 +548,24 @@ a .Service-left-button1{
     font-size: 11vh;
     font-weight: bolder;
 }
-.Project-left3 , .Project-middle1 , .Project-right1{
+.Project-left3{
     display: flex;
     border-top: 1.5px solid black;
     width: 90%;
     padding-top: 3vh;
 }
-.Project-left3 p , .Project-middle1 p , .Project-right1 p{
+.Project-middle1{
+    display: flex;
+    border-top: 1.5px solid black;
+    width: 90%;
+    padding-top: 3vh;
+}
+.Project-left3 p{
     font-size: 4vh;
+    font-weight: bolder;
+}
+.Project-middle1 p{
+    font-size: 6vh;
     font-weight: bolder;
 }
 .Project-left4{
@@ -565,31 +576,23 @@ a .Service-left-button1{
     background-repeat: no-repeat;
     justify-content: center;
 }
-.Project-middle{
-    margin-top: 22vh;
-    width: 33.33%;
-}
 .Project-middle2{
-    height: 35vh;
-    width: 100%;
+    height:70vh;
+    width: 90%;
     background-image: url(Image/Mask\ Group\ 5.png);
     background-size: contain;
     background-repeat: no-repeat;
-    justify-content: center;
+    background-position: 10%;
 }
 .Project-right{
-    width: 33.33%;
-    margin-top: 7vh;
+    width: 66.66%;
+    display: grid;
+    place-items: center;
 }
-.Project-right2{
-    height: 35vh;
-    width: 100%;
-    background-image: url(Image/Mask\ Group\ 6.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    justify-content: center;
+.Project-middle1 a{
+    margin-left: 5%;
 }
-.Project-left3 a button , .Project-middle1 a button , .Project-right1 a button{
+.Project-left3 a button{
     text-decoration: none;
     border: unset;
     border-radius: 50%;
@@ -601,35 +604,25 @@ a .Service-left-button1{
     margin-top: 5vh;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
 }
-.Project-left3 a button:hover , .Project-middle1 a button:hover , .Project-right1 a button:hover{
+.Project-left3 a button:hover , .Project-middle1 a button:hover{
     transition: 0.3s;
     color: white;
     background-color: black;
     transform: rotateZ(90deg);
 }
-
-.Project-right a{
+.Project-middle1 a button{
     text-decoration: none;
-}
-a .Project-right3{
-    display: flex;
-    text-decoration: none;
-    border-radius: 1rem;
-    background-color: black;
     border: unset;
-    z-index: 1;
-    padding: 1.7rem 1rem 1rem;
-    margin-top: 20vh;
-    margin-left: 50%;
-}
-.Project-right3 p{
-    font-weight: bold;
-    color: white;
-    margin-right: 1rem;
-    font-size: 2vh;
-}
-.Project-right3 img{
-    height: 4vh;
+    border-radius: 50%;
+    background-color: white;
+    font-size: 3em;
+    transform: rotateZ(45deg);
+    transition: 0.3s;
+    margin-top: 2vh;
+    height: 5rem;
+    width: 5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    margin-left: 10%;  
 }
 
 /*Testimonial*/
@@ -693,29 +686,34 @@ a .Project-right3{
     display: flex;
     justify-content: space-between;
 }
-.Testi-down1{
-    border-radius: 800px;
-    height: 60vh;
-}
+
 .Testi-down2{
     border-top: 1px solid black;
     border-bottom: 1px solid black;
-    width: 70%;
-    font-size: 3vh;
-    margin-left: 7%;
+    width: 90%;
+    font-size: 4vh;
+    margin: auto;
     margin-top: 2vh;
     padding-top: 6vh;
     height: 55vh;
 }
-.Testi-down2-1{
-    width: 70%;
+.Testi-down2-1 ,.Testi-down2-2 , .Testi-down2-3{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+.Testi-down2-2{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+.Testi-down2-2 b{
+    padding: 1rem 2rem;
+    background-color: #FCDA69;
+    color: white;
+    border-radius: 2rem;
 }
 .Testi-down2-3{
-    display: flex;
-}
-.Testi-down2-3 sup{
-    margin-top: 1.4vh;
-    margin-right: 1rem;
+    font-size: 3vh;
 }
 
 /*Greetings*/
@@ -785,6 +783,9 @@ a .Project-right3{
     display: flex;
     align-items: center;
     margin: auto;
+}
+.Greet-right a{
+    text-decoration: none;
 }
 .Greet-right button{
     background-color: black;
