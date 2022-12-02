@@ -570,8 +570,8 @@ a .Service-left-button1{
 }
 .Project-left4{
     height: 35vh;
-    width: 100%;
-    background-image: url(Image/Mask\ Group\ 6.png);
+    width: 90%;
+    background-image: url(Image/foto\ nelson.png);
     background-size: contain;
     background-repeat: no-repeat;
     justify-content: center;
@@ -579,15 +579,16 @@ a .Service-left-button1{
 .Project-middle2{
     height:70vh;
     width: 90%;
-    background-image: url(Image/Mask\ Group\ 5.png);
+    background-image: url(Image/foto\ bryan.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 10%;
 }
 .Project-right{
-    width: 66.66%;
+    width: 55%;
     display: grid;
     place-items: center;
+    margin-top: 5vh;
 }
 .Project-middle1 a{
     margin-left: 5%;
@@ -615,12 +616,12 @@ a .Service-left-button1{
     border: unset;
     border-radius: 50%;
     background-color: white;
-    font-size: 3em;
+    font-size: 2em;
     transform: rotateZ(45deg);
     transition: 0.3s;
     margin-top: 2vh;
-    height: 5rem;
-    width: 5rem;
+    height: 3rem;
+    width: 3rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
     margin-left: 10%;  
 }
